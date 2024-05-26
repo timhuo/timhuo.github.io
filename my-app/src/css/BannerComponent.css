@@ -1,0 +1,38 @@
+#banner {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 500px;    
+    max-height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/banner.jpeg);
+    padding: 200px;
+
+    background-attachment: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+@media (max-width: 800px) { 
+    #banner{
+        min-height: 400px;
+        max-height: 400px;
+        padding: 100px;
+        background-attachment: none;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+    #banner h1{
+        width: 100%;
+        font-size: 30px;
+    }
+}

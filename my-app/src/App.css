@@ -1,0 +1,39 @@
+html {
+  scroll-padding-top: 180px;
+}
+
+#app {
+  font-family: 'Poppins';
+}
+
+.sec-color {
+  background-color: #C9E1B4; 
+  border: 0;
+  color: black;
+  padding: 0.7rem 1.5rem;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.pri-color {
+  background-color: #78B443; 
+  border: 0;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  border-radius: 1rem;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.title { 
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 0.6em;
+}
+
+@media (max-width: 800px) { 
+  .sec-color {
+    font-size: 1.0rem;
+  }
+}
