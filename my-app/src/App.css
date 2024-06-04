@@ -6,6 +6,10 @@ html {
   font-family: 'Poppins';
 }
 
+.section {
+  padding: 25px 0px;
+}
+
 .sec-color {
   background-color: #C9E1B4; 
   border: 0;

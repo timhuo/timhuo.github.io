@@ -21,6 +21,10 @@
     font-size: 25px;
 }
 
+.AM-light {
+    font-weight: normal;
+  }
+
 #AM-bio {
     display: flex;
     align-items: flex-start;
