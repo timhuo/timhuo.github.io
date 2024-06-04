@@ -1,7 +1,8 @@
 import './App.css';
 import NavbarComponent from './components/NavbarComponent';
 import AboutMe from './components/AboutMe';
-import Work from './components/Work';
+import Experience from './components/Experience';
+import Project from './components/Project';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -10,7 +11,8 @@ function App() {
       <div id="app">
         <NavbarComponent />
         <AboutMe />
-        <Work />
+        <Experience />
+        <Project />
       </div>
     </div>
   );

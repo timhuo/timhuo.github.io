@@ -3,10 +3,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
-import "../css/Work.css";
+import "../css/Experience.css";
 import _PORTFOLIO from "../Portfolio.js";
 
-const AboutMe = () => {
+const Experience = () => {
     return (
         <Container id="Work">
             <Row className="section">
@@ -28,27 +28,26 @@ const AboutMe = () => {
                     </>
                 })}
             </Row>
-        </Container>
-    )
-}
-
-{/* <Row className="section">
-                <h1>Education</h1>
-                {_PORTFOLIO._BIO.education.map((school) => {
+            <Row className="section">
+                <h1>Volunteer Experience</h1>
+                {_PORTFOLIO._VOLUNTEER.map((company) => {
                     return <>
                     <Row className="align-items-center" style={{ padding: "20px" }}>
                         <Col sm={2}>
-                        <Image style={{width: "150px"}} src={school.logoURL} roundedCircle />
+                        <Image style={{width: "150px"}} src={company.logoURL} roundedCircle />
                         </Col>
                         <Col sm={10}>
-                            <h2>{school.institution}</h2>
-                            <h3 className="AM-light">{school.degree} in {school.field}</h3>
-                            <h5 className="AM-light">{school.startDate} - {school.endDate}</h5>
+                            <h2>{company.name}</h2>
+                            <h4 className="AM-light">{company.position}</h4>
+                            <h5 className="AM-light">{company.summary}</h5>
                         </Col>
                     </Row>
                     <hr />
                     </>
                 })}
-            </Row> */}
+            </Row>
+        </Container>
+    )
+}
 
-export default AboutMe;
+export default Experience;

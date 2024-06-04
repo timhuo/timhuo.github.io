@@ -5,7 +5,8 @@
 #AM-icon-row {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: center;
+    width: 80%;
 }
 
 .AM-icons {
