@@ -18,8 +18,8 @@ const Experience = () => {
                         <Image style={{width: "150px"}} src={company.logoURL} roundedCircle />
                         </Col>
                         <Col sm={10}>
-                            <h2>{company.name}</h2>
-                            <h3 className="AM-light">{company.position}</h3>
+                            <h3>{company.name}</h3>
+                            <h4 className="AM-light">{company.position}</h4>
                             <h5 className="AM-light">{company.startDate} - {company.endDate}</h5>
                             <h5 className="AM-light">{company.summary}</h5>
                         </Col>
@@ -37,7 +37,7 @@ const Experience = () => {
                         <Image style={{width: "150px"}} src={company.logoURL} roundedCircle />
                         </Col>
                         <Col sm={10}>
-                            <h2>{company.name}</h2>
+                            <h3>{company.name}</h3>
                             <h4 className="AM-light">{company.position}</h4>
                             <h5 className="AM-light">{company.summary}</h5>
                         </Col>

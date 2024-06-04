@@ -111,7 +111,7 @@ const _VOLUNTEER = [
 const _PROJECT = [
     {
         _id: 3,
-        date: "Jan - June 2024",
+        date: "Jan 2024 - Present",
         name: "Websites for Local Businesses",
         techstack: "ReactJS, Bootstrap, GitHub",
         logoURL: h2k,
@@ -147,7 +147,8 @@ const _COMPETITION = [
         name: "Tadish",
         techstack: "Dart, Flutter, Firebase, GitHub",
         logoURL: tadish,
-        summary: "The UHVC is an intense, semester-long program that provides resources to learn what it takes to be an entrepreneur and start a business venture. Our team of 2 built and pitched Tadish, a mobile application that helps people record dishes they've eaten in order to discover new food based on their food.",
+        detail: "The UHVC is an intense, semester-long, experiential program that provides hands-on education, mentorship and resources to University of Hawai’i students and faculty who seek to learn what it takes to be an entrepreneur and start a business venture.",
+        summary: "Our team of 2 built and pitched Tadish, a mobile application that helps people record dishes they've eaten in order to discover new food based on their food.",
         team: "Alyssia Chen, Timothy Huo",
     },
     {
@@ -158,7 +159,8 @@ const _COMPETITION = [
         name: "LahainaSim",
         techstack: "ReactJS, MongoDB, AWS, Bootstrap, Digital Ocean, GitHub",
         logoURL: lahianasim,
-        summary: "The Hawaii Annual Coding Challenge (HACC) 2023 was a month-long hackathon. Our team of 5 built LahainaSim, an interactive web application designed to foster creativity and community engagement in the aftermath of the devastating wildfires.",
+        detail: "The Hawaii Annual Coding Challenge (HACC) 2023 was a month-long hackathon from October to November. ",
+        summary: "Our team of 5 built LahainaSim, an interactive web application designed to foster creativity and community engagement in the aftermath of the devastating wildfires.",
         team: "Edalaine Cadiena, Ethan Chee, Marissa Halim, Michelle Leano, Timothy Huo",
     },
     {
@@ -169,7 +171,8 @@ const _COMPETITION = [
         name: "Broadband Hawaii",
         techstack: "ReactJS, MongoDB, AWS, Bootstrap, Digital Ocean, GitHub",
         logoURL: broadband,
-        summary: "The Hawaii Annual Coding Challenge (HACC) 2022 was a month-long hackathon. Our team of 6 built an interactive, accessible online application that encourages people to learn more about the internet and technology.",
+        detail: "The Hawaii Annual Coding Challenge (HACC) 2022 was a month-long hackathon from October to November. ",
+        summary: "Our team of 6 built an interactive, accessible online application that encourages people to learn more about the internet and technology.",
         team: "Alvin Edrada, Edalaine Cadiena, Ethan Chee, Jeraldine Joy Milla, Michelle Leano, Timothy Huo",
     },
     {
@@ -180,7 +183,8 @@ const _COMPETITION = [
         techstack: "ReactJS, MongoDB, AWS, Semantic UI, Galaxy, GitHub",
         name: "HmarCamino",
         logoURL: hmarcamino,
-        summary: "The Hawaii Annual Coding Challenge (HACC) 2021 was a month-long hackathon. Our team of five built HmarCamino, an online reporting platform that helps Hawai’i Marine Animal Response organize sighting reports from the public.",
+        detail: "The Hawaii Annual Coding Challenge (HACC) 2021 was a month-long hackathon from October to November. ",
+        summary: "Our team of five built HmarCamino, an online reporting platform that helps Hawai’i Marine Animal Response organize sighting reports from the public.",
         team: "Anna Campainha, Daphne Marie Estacio, Jerome Gallego, Michael Gainey, Timothy Huo",
     },
     {
@@ -191,7 +195,8 @@ const _COMPETITION = [
         techstack: "ReactJS, MongoDB, AWS, Bootstrap, Galaxy",
         name: "EcoCamino",
         logoURL: ecocamino,
-        summary: "The Meteor Hackathon 2021 spanned five days and challenged teams to create an impactful application using the Meteor Framework. Our team of five built EcoCamino, a community application to help organize events and facilitate communication through forums.",
+        detail: "The Meteor Hackathon 2021 spanned five days and challenged teams to create an impactful application using the Meteor Framework.",
+        summary: "Our team of five built EcoCamino, a community application to help organize events and facilitate communication through forums.",
         team: "Anna Campainha, Daphne Marie Estacio, Jerome Gallego, Michael Gainey, Timothy Huo",
     },
 ]

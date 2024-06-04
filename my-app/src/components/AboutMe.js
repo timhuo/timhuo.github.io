@@ -37,7 +37,9 @@ const AboutMe = () => {
                         </Col>
                         <Col sm={10}>
                         <h5 className="AM-light"> {school.degree} in {school.field}</h5>
-                        <p>{school.institution}</p>
+                        <p>{school.institution} <br/>
+                        {school.startDate} - {school.endDate}
+                        </p>
                         </Col>
                         </Row>
                     })}  
