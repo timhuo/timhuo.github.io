@@ -76,7 +76,7 @@ const Project = () => {
                                 <Card.Img style={{ height: "200px", objectFit: "cover" }} variant="top" src={comp.logoURL} />
                                 <Card.Body className="flex-grow-1">
                                     <Card.Title>{comp.name} </Card.Title>
-                                    <Card.Title style={{fontStyle: "italic"}}>{comp.award}</Card.Title>
+                                    <Card.Text style={{fontStyle: "italic"}}>{comp.award}</Card.Text>
                                     <Card.Text>{comp.date}</Card.Text>
                                     <Card.Text>{comp.summary}</Card.Text>
                                     <Card.Text>Tech Stack: {comp.techstack}</Card.Text>
