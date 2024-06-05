@@ -23,7 +23,7 @@ const AboutMe = () => {
                     <div id="AM-icon-row">
                         <a href={_PORTFOLIO._BIO.linkedin} target="_blank" rel="noopener noreferrer"><Linkedin size={45} className="AM-icons" /> </a>
                         <a href={_PORTFOLIO._BIO.github} target="_blank" rel="noopener noreferrer"><Github size={45} className="AM-icons" /></a>
-                        <a href="" target="_blank" rel="noopener noreferrer"><Envelope size={45} className="AM-icons" /></a>
+                        <a href={`mailto:${_PORTFOLIO._BIO.email}`} target="_blank" rel="noopener noreferrer"><Envelope size={45} className="AM-icons" /></a>
                     </div>
                 </Col>
                 <Col sm={7} id="AM-bio">

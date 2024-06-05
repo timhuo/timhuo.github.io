@@ -14,7 +14,7 @@ const NavbarComponent = () => {
                     <Nav.Link className='nav-link' href="#AboutMe">About Me</Nav.Link>
                     <Nav.Link className='nav-link' href="#Experience">Experience</Nav.Link>
                     <Nav.Link className='nav-link' href="#Projects">Projects</Nav.Link>
-                    <Nav.Link className='nav-link' href="#">Papers</Nav.Link>
+                    {/* <Nav.Link className='nav-link' href="#">Papers</Nav.Link> */}
                 </Nav>
             </Container>
         </Navbar>
