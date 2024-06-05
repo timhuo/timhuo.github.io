@@ -9,11 +9,11 @@ const NavbarComponent = () => {
     return (
         <Navbar id="navbar" fixed="top">
             <Container>
-                <Navbar.Brand className='nav-link' href="#">{_PORTFOLIO._BIO.name}</Navbar.Brand>
+                <Navbar.Brand className='nav-link' href="#home">{_PORTFOLIO._BIO.name}</Navbar.Brand>
                 <Nav className="justify-content-end" >
-                    <Nav.Link className='nav-link' href="#">About Me</Nav.Link>
-                    <Nav.Link className='nav-link' href="#">Work Experience</Nav.Link>
-                    <Nav.Link className='nav-link' href="#">Projects</Nav.Link>
+                    <Nav.Link className='nav-link' href="#AboutMe">About Me</Nav.Link>
+                    <Nav.Link className='nav-link' href="#Experience">Experience</Nav.Link>
+                    <Nav.Link className='nav-link' href="#Projects">Projects</Nav.Link>
                     <Nav.Link className='nav-link' href="#">Papers</Nav.Link>
                 </Nav>
             </Container>

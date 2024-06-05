@@ -30,8 +30,10 @@ const AboutMe = () => {
                     <h1 id="AM-name">{_PORTFOLIO._BIO.name}</h1>
                     <p id="AM-summary">{_PORTFOLIO._BIO.summary}</p>
                     <br />  
+                    <Row>
                     {_PORTFOLIO._BIO.education.map((school) => {
-                        return <Row>
+                        return <Col sm={6}>
+                        <Row>
                         <Col sm={2}>
                         <Mortarboard size={45} className="AM-icons" />
                         </Col>
@@ -42,7 +44,9 @@ const AboutMe = () => {
                         </p>
                         </Col>
                         </Row>
+                        </Col>
                     })}  
+                    </Row>
                 </Col>
             </Row>
             <hr className="line" />
