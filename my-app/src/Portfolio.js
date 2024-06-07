@@ -150,7 +150,7 @@ const _COMPETITION = [
         name: "Tadish",
         techstack: "Dart, Flutter, Firebase, GitHub",
         logoURL: tadish,
-        media: [["Article by University of Hawaii News", "https://www.hawaii.edu/news/2024/05/07/omnivocab-wins-2024-venture-competition/"]],
+        media: [["Article by University of Hawaii News", "https://www.hawaii.edu/news/2024/05/07/omnivocab-wins-2024-venture-competition/"],["Hawaii News Now","https://www.hinowdaily.com/2024/05/09/pace-diversifies-economy-with-student-innovation-entrepreneurship-new-walter-dods-jr-rise-center/"]],
         detail: "The UHVC is an intense, semester-long, experiential program that provides hands-on education, mentorship and resources to University of Hawai’i students and faculty who seek to learn what it takes to be an entrepreneur and start a business venture.",
         summary: "Our team of 2 built and pitched Tadish, a mobile application that helps people record dishes they've eaten in order to discover new food based on their food.",
         team: "Alyssia Chen, Timothy Huo",
