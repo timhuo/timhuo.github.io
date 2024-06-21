@@ -50,7 +50,7 @@ const Project = () => {
                     })}
                 </Row>
             </Row>
-            <Modal size="md" show={modalProject} onHide={handleProjectClose} aria-labelledby="contained-modal-title-vcenter" centered>
+            <Modal size="lg" show={modalProject} onHide={handleProjectClose} aria-labelledby="contained-modal-title-vcenter" centered>
                 {selectProject ? <>
                     <Modal.Header closeButton>
                         <Modal.Title>{selectProject.name}</Modal.Title>
@@ -89,7 +89,7 @@ const Project = () => {
                     })}
                 </Row>
             </Row>
-            <Modal size="md" show={modalComp} onHide={handleCompClose} aria-labelledby="contained-modal-title-vcenter" centered>
+            <Modal size="lg" show={modalComp} onHide={handleCompClose} aria-labelledby="contained-modal-title-vcenter" centered>
                 {selectProject ? <>
                     <Modal.Header closeButton>
                         <Modal.Title>{selectProject.name}</Modal.Title>
